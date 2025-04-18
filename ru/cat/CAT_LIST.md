@@ -2,7 +2,7 @@
 ### 1 курс 2 семестр
 - [DockerImageAnalysisService](https://github.com/pabloeclair/DockerImageAnalysisService)
 
-  Небольшая сервис на `#go`, который поднимает сервер и при получении запроса возвращает основные данные об образе на базе `linux/amd`
+  Небольшой сервис на `#go`, который поднимает сервер и при получении запроса возвращает основные данные об образе на базе `linux/amd`
 ### 1 курс 1 семестр
 - [TgBotWeatherForecastCU](https://github.com/pabloeclair/TgBotWeatherForecastCU)
 

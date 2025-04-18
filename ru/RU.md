@@ -11,5 +11,5 @@
 - `#html`
 - `#js`
 
--> [Список по категориям]()\
--> [Список по языкам]()
+-> [Список по категориям](https://github.com/pabloeclair/RepoCatalog/blob/main/ru/cat/CAT_LIST.md)\
+-> [Список по языкам](https://github.com/pabloeclair/RepoCatalog/blob/main/ru/lang/LANG_LIST.md)

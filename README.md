@@ -19,7 +19,7 @@
 | [NoteServiceProtoBuff](https://github.com/pabloeclair/NoteServiceProtoBuff) | Реализация gRPC-сервера на `#go` для создания и in-memory хранения заметок и gRPC-клиента на `#java`. | `#study-project-CU`, `#go`, `#java` |
 | [NoteService](https://github.com/pabloeclair/NoteService) | Простой REST-сервис на `#go` для управления заметками в БД на PostgreSQL. | `#study-project-CU`, `#go`, `#sql` |
 | [TgBotWeatherForecastCU](https://github.com/pabloeclair/TgBotWeatherForecastCU) | Мой первый телеграм-бот на `#python`, который предупреждает об опасных погодных условиях с помощью [AccuWeather API](https://developer.accuweather.com/). | `#study-project-CU`, `#python` |
-| [Hackathon_T1_GR](https://github.com/pabloeclair/Hackathon_T1_GR) | Групповой проект `#python`, в котором я принимал участие на хакатоне [Импульс Т1](https://impulse.t1.ru/) в 2024 и занял 3-е место. | `#hackathon`, `#python` |
+| [Hackathon_T1_GR](https://github.com/pabloeclair/Hackathon_T1_GR) | Проект на `#python` хакатона [Импульс Т1](https://impulse.t1.ru/) 2024 по извлечению золотой записи, с помощью которого командой заняли 3-е место. | `#hackathon`, `#python` |
 
 ## Список по категориям
 - [`#study-project-CU`](#study-project-cu)

@@ -1,65 +1,44 @@
 # Каталог Моих Репозиториев
 
-Здесь собраны все мои репозитории, разделенные по категориям и с кратким описанием. На данный момент существуют следующие теги:
-- `#study-project-CU` — проекты, созданные в рамках курсов или чего-то еще в [Центральном Университете](https://centraluniversity.ru/)
-- `#hackathon` — проекты, созданные в рамках хакатонов
-
-Также в качестве тегов применяются языки: `#go`, `#java`, `#python`, `#js`, `#sql`.
-
 ## Содержание
-- [Список по категориям](#список-по-категориям)
-- [Список по ЯП](#список-по-яп)
-- [Проекты](#проекты)
+- [Fullstack-проекты](#fullstack-проекты)
+- [Backend-проекты](#backend-проекты)
+- [Другое](#другое)
 
-## Проекты
-| Название проекта | Описание | Теги |
-|------------------|----------|------|
-| [BookingWebService](https://github.com/pabloeclair/BookingWebService) | Сайт для бронирования мест в аудиториях. Full-stack проект с реализацией авторизации на `#go`, сохранения бронирований на `#java` и версткой на React. В процессе разработки. | `#study-project-CU`, `#go`, `#java`, `#js`, `#sql` |
-| [DockerImageAnalysisService](https://github.com/pabloeclair/DockerImageAnalysisService) | Небольшой REST-сервис на `#go` для получении основной информации об образе на базе `linux/amd`. | `#study-project-CU`, `#go` |
-| [NoteServiceProtoBuff](https://github.com/pabloeclair/NoteServiceProtoBuff) | Реализация gRPC-сервера на `#go` для создания и in-memory хранения заметок и gRPC-клиента на `#java`. | `#study-project-CU`, `#go`, `#java` |
-| [NoteService](https://github.com/pabloeclair/NoteService) | Простой REST-сервис на `#go` для управления заметками в БД на PostgreSQL. | `#study-project-CU`, `#go`, `#sql` |
-| [TgBotWeatherForecastCU](https://github.com/pabloeclair/TgBotWeatherForecastCU) | Мой первый телеграм-бот на `#python`, который предупреждает об опасных погодных условиях с помощью [AccuWeather API](https://developer.accuweather.com/). | `#study-project-CU`, `#python` |
-| [Hackathon_T1_GR](https://github.com/pabloeclair/Hackathon_T1_GR) | Проект на `#python` хакатона [Импульс Т1](https://impulse.t1.ru/) 2024 по извлечению золотой записи, с помощью которого командой заняли 3-е место. | `#hackathon`, `#python` |
+## Fullstack-проекты
+### [BookingWebService](https://github.com/pabloeclair/BookingWebService) 
+Сайт для бронирования аудиторий. Реализованы два REST API: на `Go` для авторизации и управления пользователями и на `Java` для управления аудиториями и бронированиями. Создан SPA с помощью React. **В процессе разработки.**
 
-## Список по категориям
-- [`#study-project-CU`](#study-project-cu)
-- [`#hackaton`](#hackathon)
-### `#study-project-CU`
-- 1 курс 2 семестр
-  - [BookingWebService](https://github.com/pabloeclair/BookingWebService)
-  - [NoteServiceProtoBuff](https://github.com/pabloeclair/NoteServiceProtoBuff)
-  - [NoteService](https://github.com/pabloeclair/NoteService)
-  - [DockerImageAnalysisService](https://github.com/pabloeclair/DockerImageAnalysisService)
-- 1 курс 1 семестр
-  - [TgBotWeatherForecastCU](https://github.com/pabloeclair/TgBotWeatherForecastCU)
+**Стек**: Go (REST, net/http, JWT), Java (REST, Spring, ORM), PostgreSQL, React, Docker
 
-### `#hackathon`
-- [Hackathon_T1_GR](https://github.com/pabloeclair/Hackathon_T1_GR)
+## Backend-проекты
+### [rest-subscription](https://github.com/pabloeclair/rest-subscription)
+REST-сервис для управления онлайн-подписками. Был сделан с целью изучить использование ORM с помощью пакета `gorm`.
 
-## Список по ЯП
-- [`#go`](#go)
-- [`#java`](#java)
-- [`#js`](#js)
-- [`#python`](#python)
-- [`#sql`](#sql)
+**Стек**: Go (REST, net/http, ORM, gorm), PostgreSQL, Docker
 
-### `#go`
-- [BookingWebService](https://github.com/pabloeclair/BookingWebService)
-- [DockerImageAnalysisService](https://github.com/pabloeclair/DockerImageAnalysisService)
-- [NoteServiceProtoBuff](https://github.com/pabloeclair/NoteServiceProtoBuff)
+### [DockerImageAnalysisService](https://github.com/pabloeclair/DockerImageAnalysisService)
+Небольшой REST-сервис на `Go` для получения основной информации об указанном образе на базе `linux/amd`. Для этого взаимодействует с DockerHubAPI.
 
-### `#python`
-- [TgBotWeatherForecastCU](https://github.com/pabloeclair/TgBotWeatherForecastCU)
-- [Hackathon_T1_GR](https://github.com/pabloeclair/Hackathon_T1_GR)
+**Стек**: Go, REST, net/http
 
-### `#java`
-- [BookingWebService](https://github.com/pabloeclair/BookingWebService)
-- [NoteServiceProtoBuff](https://github.com/pabloeclair/NoteServiceProtoBuff)
+### [NoteServiceProtoBuff](https://github.com/pabloeclair/NoteServiceProtoBuff) 
+Реализация gRPC-сервера на `Go` для управления заметками с помощью in-memory хранилища и класс gRPC-клиента на `Java`.
 
-### `#js`
-- [BookingWebService](https://github.com/pabloeclair/BookingWebService)
+**Стек**: Go, gRPC, ProtoBuff, Java
 
-### `#sql`
-- [BookingWebService](https://github.com/pabloeclair/BookingWebService)
-- [NoteService](https://github.com/pabloeclair/NoteService)
+### [FtbQuests-LocalizationKeysGenerator](https://github.com/pabloeclair/FtbQuests-LocalizationKeysGenerator)
+В процессе перевода [сборки "Homestead"](#homestead-ru-translation), появилась необходимость изменить изначальный файлы, внедрив в них так называемые "ключи", для удобства перевода, а также для возможности включить квесты на оригинальном языке. Для решения этой проблемы мною был написана программа на `Go`, которая генерирует все необходимые файлы для перевода. **В процессе разработки.**
+
+**Стек**: Go (os, bufio)
+
+## Другое
+### [Hackathon_T1_GR](https://github.com/pabloeclair/Hackathon_T1_GR)
+Проект на Python хакатона [Импульс Т1](https://impulse.t1.ru/) 2024 по извлечению золотой записи, с помощью которого командой заняли 3-е место. Мое участие заключалось в курировании работы всех участников, код-ревью и в помощи реализации подготовки входных данных.
+
+**Стек**: Python, pandas, argparse
+
+### [homestead-ru-translation](https://github.com/pabloeclair/homestead-ru-translation)
+Перевод Homestead - майнкрафт сборки модов. На данный момент основной акцент идет на перевод квестов из мода `ftbquests`.
+
 
